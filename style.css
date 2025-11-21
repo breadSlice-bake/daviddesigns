@@ -209,17 +209,15 @@ h2,.pHeading{
     grid-area: imgSix;
 }
 .carousel{
-    width: 300px;
+    width: 100%;
     max-width: 300px ;
     height: auto;
     overflow: hidden;
-    align-items: center;
+    position: relative;
 }
 .carouselTrack{
     display: flex;
     transition: transform 0.5s ease-in-out;
-    gap: 0;
-    width: 608px;
 }
 .carouselView{
     display: flex;
@@ -234,24 +232,25 @@ h2,.pHeading{
 .carouselButton{
     display: flex;
     justify-content: center;
-    align-content: center;
+    justify-items: center;
     height: auto;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
-.carousel,.carouselTrack,.product{
-    box-sizing: border-box;
-}
 .product{
-    display: flex;
+    flex: 0 0 100%;
     flex-direction: column;
     justify-content: center;
+    justify-items: center;
     align-items: center;
+    align-content: center;
+    text-align: center;
     border: #2c2c2c solid 2px;
-    width: 300px;
-    height: 480px;
+    height: auto;
     border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    padding: 10px;
 }
 #arrow{
     width: 40vw;
@@ -351,4 +350,3 @@ input,textarea{
         max-width: 120px;
     }
 }
-
