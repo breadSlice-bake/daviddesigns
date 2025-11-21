@@ -132,6 +132,7 @@ h2,.pHeading{
     text-decoration: underline;
 }
 .backSpiral{
+    display: none;
     position: fixed;
     width: 40vw;
     max-width: 400px;
