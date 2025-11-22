@@ -22,7 +22,14 @@ a{
     text-decoration: underline;
     color :#1a3a6f;
 }
-body, html{
+html{
+    background: linear-gradient(to bottom, #eaf2ff,#ffffff,#1a3a6f);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+body{
     overscroll-behavior: none;
     margin: 0;
     background: linear-gradient(to bottom, #eaf2ff,#ffffff,#1a3a6f);
