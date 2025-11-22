@@ -40,7 +40,8 @@ main{
     background: inherit;
     padding-bottom: 20px;
 }
-.footer{
+footer{
+    height: 20px;
     position: absolute;
     bottom: 0;
     display: flex;
