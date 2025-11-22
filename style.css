@@ -38,9 +38,9 @@ body, html{
 main{
     flex: 1;
     background: inherit;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
-footer{
+.footer{
     position: absolute;
     bottom: 0;
     display: flex;
