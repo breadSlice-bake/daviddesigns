@@ -32,8 +32,6 @@ body, html{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 100%;
-    min-height: 100dvh;
     color: #2c2c2c;
 }
 main{
