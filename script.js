@@ -50,11 +50,3 @@ prev.addEventListener('click',()=>{
         updateSlide();
     }
 );
-function adjustBodyHeight(){
-    const vh = window.innerHeight;
-
-    document.body.style.minHeight = `${vh * 1.02}px`
-}
-adjustBodyHeight()
-
-window.addEventListener('resize',adjustBodyHeight);
