@@ -23,7 +23,7 @@ a{
     color :#1a3a6f;
 }
 body, html{
-    overscroll-behavior-inline: none;
+    overscroll-behavior: none;
     margin: 0;
     background: linear-gradient(to bottom, #eaf2ff,#ffffff,#1a3a6f);
     background-repeat: no-repeat;
