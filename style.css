@@ -22,24 +22,25 @@ a{
     text-decoration: underline;
     color :#1a3a6f;
 }
-html{
-    background: linear-gradient(to bottom, #eaf2ff,#ffffff,#1a3a6f);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-body{
+body, html{
+    display: flex;
+    flex-direction: column;
     margin: 0;
+    padding: 0;
     background: linear-gradient(to bottom, #eaf2ff,#ffffff,#1a3a6f);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     height: 100%;
     min-height: 100dvh;
     color: #2c2c2c;
 }
+main{
+    flex: 1;
+}
 footer{
-    display: none;
+    display: flex;
     justify-content: center;
     background-color: #050709;
     color: #cfd7e6;
