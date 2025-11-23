@@ -10,11 +10,6 @@ header{
     margin: 0;
     padding: 0;
 }
-.pageWrap{
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-}
 .navBar{
     display: none;
     width: 100%;
@@ -32,12 +27,10 @@ body, html{
     flex-direction: column;
     margin: 0;
     padding: 0;
-    min-height: 100dvh;
     background-image: url(daviddesignsBackground.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
     color: #2c2c2c;
     position: relative;
 }
