@@ -54,11 +54,6 @@ footer{
     margin: 0;
     padding: 0;
     width: 100%;
-
-}
-.buffer{
-    height: 50px;
-    background: inherit;
 }
 .header-icon{
     width: 40vw;
