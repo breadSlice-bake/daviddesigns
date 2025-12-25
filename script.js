@@ -32,7 +32,7 @@ sctollToTop.addEventListener("click",()=>{
 const next = document.querySelector(".next");
 const prev = document.querySelector(".prev");
 const track = document.querySelector(".carouselTrack");
-const slide = Array.from(track.children);
+let slide = Array.from(track.children);
 
 let currentIndex = 0;
 
