@@ -401,6 +401,7 @@ form{
     border-radius: 20px;
     transition: transform 0.3s ease;
     box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+    color: #2c2c2c;
 }
 .submitButton:hover, .pButton:hover{
     transform: scale(1.1);
