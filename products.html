@@ -25,6 +25,9 @@
 </script>
 </head>
 <body>
+		<div id="loader">
+		<div id="spinner"></div>
+		</div>
     <button class="scrollToTop"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
         <path stroke-linecap="round" stroke-linejoin="round" d="m9 9 6-6m0 0 6 6m-6-6v12a6 6 0 0 1-12 0v-3" />
         </svg>
@@ -38,10 +41,12 @@
 				<div class="navItem"><a href="products.html">Products and Services</a></div>
 				<div class="navItem"><a href="contact.html">Contact</a></div>
 		</div>
-		<button class="navButton"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-</svg>
-</button>
+		<button class="navButton"><svg id="burgerSvg"  xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+				<line class="top" x1="3" y1="8" x2="21" y2="8"/>
+				<line class="middle" x1="3" y1="16" x2="21" y2="16"/>
+	    		<line class="bottom" x1="3" y1="24" x2="21" y2="24"/> 
+				</svg>
+		</button>
 		<nav class="mobileNav" >
 				<div class="navItem"><a href="index.html">Home</a></div>
 				<div class="navItem"><a href="products.html">Products and Services</a></div>
