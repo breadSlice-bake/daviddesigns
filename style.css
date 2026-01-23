@@ -133,9 +133,6 @@ button{
 .navButton.active #burgerSvg .middle{
     transform: translateY(-3px) rotate(-45deg);
 }
-.navButton.active #burgerSvg .bottom{
-    display: none;
-}
 .navButton.active{
     transform: translateX(-220px) translateY(10px);
     
@@ -149,6 +146,8 @@ button{
     position: fixed;
     right: 0;
     top: 0;
+    border-top: none;
+    border-right: none;
     border: #2c2c2c solid 2px;
     padding: 10px;
     background-color: rgba(255,255,255,0.9);
@@ -225,27 +224,17 @@ h2,.pHeading{
 }
 .slideL{
     opacity: 0;
-    transform: translateX(-200px);
-    animation: slideLeft 1s forwards;
-    animation-delay: 0.5s;
+    transform: translateX(-100px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
 }
-@keyframes slideLeft{
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
+.slide.active{
+    opacity: 1;
+    transform: translateX(0);
 }
 .slideR{
     opacity: 0;
-    transform: translateX(200px);
-    animation: slideRight 1s forwards;
-    animation-delay: 0.6s;
-}
-@keyframes slideRight {
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
+    transform: translateX(100px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
 }
 .par,p{
     font-family: "Roboto", sans-serif;
