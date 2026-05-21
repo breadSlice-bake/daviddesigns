@@ -200,7 +200,7 @@ h1{
     font-size: 32px;
     text-decoration: underline;
 }
-h2,.pHeading{
+h2,.pHeading,h3{
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
@@ -399,6 +399,22 @@ form{
 }
 input,textarea{
     width: 100%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: #2c2c2c solid 2px;
+    background-color: #2c2c2c37;
+    border-radius: 15px;
+    width: 150px;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+.card img{
+    width: 50px;
 }
 @media (min-width: 800px) {
     .navButton{
